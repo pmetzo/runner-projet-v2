@@ -1,0 +1,36 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.metzo"
+        },
+        "jhipsterVersion": "5.3.4",
+        "applicationType": "monolith",
+        "baseName": "runnerProjetV1",
+        "packageName": "com.metzo",
+        "packageFolder": "com/metzo",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "mysql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "M2Q1MThmZGIyOTg3OGRiMDkyNjVjNTI2MmFmNDIzMTY2NDk0ODFhYWQ0Yzk2ZWM2ODZkMjE3MjJkYTk0NzA5MjJiN2VlYWUzNjZjNThhYjk4OWE5ZGIxYzJlZTVkZDBjNmI1ODdmM2ViMTAzYTBiMTdmM2QxYTQ4NzZlNTJiYTU=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [
+            "gatling",
+            "cucumber",
+            "protractor"
+        ],
+        "jhiPrefix": "jhi",
+        "enableTranslation": false
+    }
+}
